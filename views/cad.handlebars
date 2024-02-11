@@ -3,24 +3,31 @@
           <div>
             <form action="/add" method="post">
             <div class="header">
-            <h1 class="paragraph">Cadastro</h1>
+            <h1 class="title">Cadastro</h1>
             </div>
+            <div class="divisor-header"></div>
               <div class="main-inputs">
-                <p>Nome:</p>
+                <p class="p-main">Nome:</p>
                 <input type="text" name="nome" />
-                <p>Email:</p>
+                <p class="p-main">Email:</p>
                   <input type="email" name="email" />
-                <p>Fone:</p>
+                <p class="p-main">Fone:</p>
                   <input type="text" name="fone" max="13" />
-                <p>Cep:</p>
+                <p class="p-main">Cep:</p>
                   <input type="number" name="cep" />
-                <p>Password:</p>
+                <p class="p-main">Password:</p>
                   <input type="password" name="password" />
               </div>
               <div class="footer">
                 <button type="submit">Cadastrar</button>
               </div>
             </form>
+            <div class="footer-other">
+              <div class="divisor-footer"></div>
+              <p class="p-footer">
+                Já possuí cadastro? <a href="/login" class="a-footer">Faça Login</a>
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -1,38 +1,45 @@
-<body>
-  <!DOCTYPE html>
-  <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="./public/css/styleForm.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-      <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/styleForm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
   </head>
-    <div id="form">
+  <body>
+  <div id="form">
         <div class="formulario">
           <div>
             <form action="/add" method="post">
             <div class="header">
-            <h1 class="paragraph">Cadastro</h1>
+            <h1 class="title">Cadastro</h1>
             </div>
+            <div class="divisor-header"></div>
               <div class="main-inputs">
-                <p>Nome:</p>
+                <p class="p-main">Nome:</p>
                 <input type="text" name="nome" />
-                <p>Email:</p>
+                <p class="p-main">Email:</p>
                   <input type="email" name="email" />
-                <p>Fone:</p>
+                <p class="p-main">Fone:</p>
                   <input type="text" name="fone" max="13" />
-                <p>Cep:</p>
+                <p class="p-main">Cep:</p>
                   <input type="number" name="cep" />
-                <p>Password:</p>
+                <p class="p-main">Password:</p>
                   <input type="password" name="password" />
               </div>
               <div class="footer">
                 <button type="submit">Cadastrar</button>
               </div>
             </form>
+            <div class="footer-other">
+              <div class="divisor-footer"></div>
+              <p class="p-footer">
+                Já possuí cadastro? <a href="" class="a-footer">Faça Login</a>
+              </p>
+            </div>
           </div>
         </div>
       </div>

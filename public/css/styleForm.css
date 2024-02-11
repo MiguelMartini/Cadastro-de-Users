@@ -20,50 +20,57 @@ body{
     text-align: center;
     background-color: #e7f1f1;
     color: black;
-    width: 700px;
-    height: 700px;
+    width: 600px;
+    height: 750px;
     border-radius: 15px;
     box-shadow: 4px 4px 25px #2f4f50;
 }
 /* title */
-.paragraph{
+.title{
     padding-top: 30px;
     font-size: 50px;
     color: #2f4f50;
 }
 
-.main-inputs{
-    padding-top: 50px;
-    padding-right: 340px;
+.divisor-header{
+    margin-top: 20px;
+    margin-left: 130px; 
+    width: 350px;
+    height: 5px;
+    background-color: #2f4f50;
+    border-radius: 10px;
 }
-p{
+
+.main-inputs{
+    padding-top: 35px;
+}
+.p-main{
     font-size: 20px;
     font-weight: 400;
     color: #2f4f50;
-    padding-left: 80px;
-    display: flex;
-    justify-content: flex-start;
-
+    text-align: left;
+    margin-left: 150px;
 }
 input{
     outline: none;
-    border: none;
+    border: 2px solid #f7f5f5;
     border-radius: 5px;
     font-size: 17px;
     font-weight: 100;
     margin: 10px;
     height: 35px;
-    width: 300px;    
-    margin-left: 70px;
+    width: 320px;
     padding-left: 15px;
 }
 input:focus{
     background-color: #f7f5f5
 }
 
+
 .footer{
-    padding-top: 50px;
+    padding-top: 30px;
 }
+
 
 button{
     width: 250px;
@@ -81,5 +88,28 @@ button{
 
 button:hover{
     background-color: #2f4f50;
+}
+
+.divisor-footer{
+    margin-top: 25px;
+    margin-left: 70px; 
+    width: 450px;
+    height: 5px;
+    background-color: #2f4f50;
+    border-radius: 10px;
+}
+
+.p-footer{
+    font-size: 19px;
+    color: #000;
+    margin-top: 20px;
+}
+.a-footer{
+    color: #2f4f50;
+    font-weight: 600;
+    text-decoration: none;
+}
+.a-footer:hover{
+    font-weight: 900;
 }
 /*2f4f50 e7f1f1 5f9ea0 */
